@@ -1,0 +1,56 @@
+.create__container{
+    margin-top: 30px;
+    width: 96%;
+    margin: 30px auto ;
+    background-color: var(--color-lemon);
+    border-radius: 10px;
+    padding: 10px;
+}
+.create__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.small__create{
+    margin-top: 2.5em;
+    margin-bottom: .8em;
+}
+.small__create h2{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #444;
+}
+.design{
+    margin-bottom: .8em;
+}
+.design h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.create__content a.btn{
+    background: black;
+    color: #fff;
+    font-size: .9rem;
+    border: 2px solid black;
+    margin-bottom: .9em;
+}
+.create__content a.btn:hover{
+    border: 2px solid black;
+    background-color: transparent;
+}
+.view{
+    margin-bottom:.6em ;
+}
+.view a{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.paragraph{
+    margin-bottom: 3em;
+}
+.paragraph p{
+    color: #777;
+    font-size:1rem;
+}

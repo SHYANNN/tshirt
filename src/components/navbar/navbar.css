@@ -1,0 +1,80 @@
+a{
+    color: black;
+}
+.navbar__container{
+    width: 96%;
+    margin: 10px auto ;
+}
+.company__name{
+    font-size: 15px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__links ul{
+    display: flex;
+}
+.nav__links li{
+    margin: .5em 1.3em;
+}
+.nav__links li a{
+    color: #555;
+    font-weight: 600;
+    font-size: .9rem;
+    transition: 0.5s;
+}
+.nav__links li a:hover{
+    color:var(--color-lemon)
+}
+.nav__links li.social{
+    margin: .5em;
+}
+.nav__links li.social a{
+    color: black;
+    font-size: 1rem;
+}
+.nav__links li.get a{
+    color: black;
+}
+a.btn{
+    background:var(--color-lemon);
+    padding: .6em 1.3em;
+    border-radius: 30px;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+a.btn:hover{
+    border: 2px solid var(--color-lemon);
+    background-color: transparent;
+}
+
+/* ======MEDIA QUERIES==== */
+@media(max-width:688px){
+    .nav__links li{
+        margin: .5em 1em;
+    }
+}
+@media(max-width:648px){
+    .nav__links li{
+        margin: .5em .7em;
+    }
+}
+@media(max-width:608px){
+    .nav__links li{
+        margin: .5em .5em;
+    }
+}
+@media(max-width:581px){
+    li.social{
+        display: none;
+    }
+}
+@media(max-width:481px){
+    li.get{
+        position: absolute;
+        top: 40px;
+        right: 0rem;
+    }    
+}
