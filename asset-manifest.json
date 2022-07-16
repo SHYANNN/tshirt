@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/SHYANNN/cloth.git/static/css/main.48941d4e.css",
-    "main.js": "/SHYANNN/cloth.git/static/js/main.795d77aa.js",
-    "index.html": "/SHYANNN/cloth.git/index.html",
-    "main.48941d4e.css.map": "/SHYANNN/cloth.git/static/css/main.48941d4e.css.map",
-    "main.795d77aa.js.map": "/SHYANNN/cloth.git/static/js/main.795d77aa.js.map"
+    "main.css": "/tshirt/static/css/main.48941d4e.css",
+    "main.js": "/tshirt/static/js/main.795d77aa.js",
+    "index.html": "/tshirt/index.html",
+    "main.48941d4e.css.map": "/tshirt/static/css/main.48941d4e.css.map",
+    "main.795d77aa.js.map": "/tshirt/static/js/main.795d77aa.js.map"
   },
   "entrypoints": [
     "static/css/main.48941d4e.css",
